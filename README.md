@@ -31,7 +31,7 @@ project_root/
 ## Getting Started
 
 ### 1. Clone the Repository
-git clone (https://github.com/Selva-Sridhar/Excel_formula_extractor.git)
+git clone https://github.com/Selva-Sridhar/Excel_formula_extractor.git
 cd Excel_formula_extractor
 
 ### 2. Create and Activate a Virtual Environment
