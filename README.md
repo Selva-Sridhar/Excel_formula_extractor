@@ -63,8 +63,8 @@ Create a `.env` file in the project root and add:
 ```
 PGHOST=localhost             # PostgreSQL server host
 PGPORT=5432                  # Default port
-PGDATABASE=excel_data_modified
-PGUSER=postgres              # Username
+PGDATABASE=                  # postgres database name
+PGUSER=                      # Username
 PGPASSWORD=your_password     # Your password
 GOOGLE_API_KEY=your_gemini_key
 ```
