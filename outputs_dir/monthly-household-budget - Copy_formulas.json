@@ -1,0 +1,2560 @@
+[
+  {
+    "cell": "D5",
+    "formula": "=C5-B5",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C5",
+      "B5"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D5",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "G5",
+    "formula": "=Table2[[#Totals],[Budget]]",
+    "readable_formula": "=Table2[[#Totals],[Budget]]",
+    "dependencies": [
+      "ble2"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G5",
+      "value": 3850.0
+    }
+  },
+  {
+    "cell": "H5",
+    "formula": "=Table2[[#Totals],[Actual]]",
+    "readable_formula": "=Table2[[#Totals],[Actual]]",
+    "dependencies": [
+      "ble2"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H5",
+      "value": 3300.0
+    }
+  },
+  {
+    "cell": "I5",
+    "formula": "=G5-H5",
+    "readable_formula": "=[Actual]-[Difference]",
+    "dependencies": [
+      "G5",
+      "H5"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I5",
+      "value": 550.0
+    }
+  },
+  {
+    "cell": "D6",
+    "formula": "=C6-B6",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C6",
+      "B6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D6",
+      "value": -200.0
+    }
+  },
+  {
+    "cell": "G6",
+    "formula": "=SUM(,Table5[[#Totals],[Budget]],Table20[[#Totals],[Budget]],Table21[[#Totals],[Budget]],Table19[[#Totals],[Budget]],Table15[[#Totals],[Budget]],Table16[[#Totals],[Budget]],Table17[[#Totals],[Budget]],Table18[[#Totals],[Budget]],Table14[[#Totals],[Budget]],Table13[[#Totals],[Budget]],Table12[[#Totals],[Budget]],Table11[[#Totals],[Budget]],Table10[[#Totals],[Budget]],Table8[[#Totals],[Budget]],Table7[[#Totals],[Budget]],Table6[[#Totals],[Budget]])",
+    "readable_formula": "=SUM(,Table5[[#Totals],[Budget]],Table20[[#Totals],[Budget]],Table21[[#Totals],[Budget]],Table19[[#Totals],[Budget]],Table15[[#Totals],[Budget]],Table16[[#Totals],[Budget]],Table17[[#Totals],[Budget]],Table18[[#Totals],[Budget]],Table14[[#Totals],[Budget]],Table13[[#Totals],[Budget]],Table12[[#Totals],[Budget]],Table11[[#Totals],[Budget]],Table10[[#Totals],[Budget]],Table8[[#Totals],[Budget]],Table7[[#Totals],[Budget]],Table6[[#Totals],[Budget]])",
+    "dependencies": [
+      "ble5",
+      "ble20",
+      "ble21",
+      "ble19",
+      "ble15",
+      "ble16",
+      "ble17",
+      "ble18",
+      "ble14",
+      "ble13",
+      "ble12",
+      "ble11",
+      "ble10",
+      "ble8",
+      "ble7",
+      "ble6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G6",
+      "value": 14020.0
+    }
+  },
+  {
+    "cell": "H6",
+    "formula": "=SUM(Table5[[#Totals],[Actual]],Table20[[#Totals],[Actual]],Table21[[#Totals],[Actual]],Table19[[#Totals],[Actual]],Table15[[#Totals],[Actual]],Table16[[#Totals],[Actual]],Table17[[#Totals],[Actual]],Table18[[#Totals],[Actual]],Table14[[#Totals],[Actual]],Table13[[#Totals],[Actual]],Table12[[#Totals],[Actual]],Table11[[#Totals],[Actual]],Table10[[#Totals],[Actual]],Table8[[#Totals],[Actual]],Table7[[#Totals],[Actual]],Table6[[#Totals],[Actual]])",
+    "readable_formula": "=SUM(Table5[[#Totals],[Actual]],Table20[[#Totals],[Actual]],Table21[[#Totals],[Actual]],Table19[[#Totals],[Actual]],Table15[[#Totals],[Actual]],Table16[[#Totals],[Actual]],Table17[[#Totals],[Actual]],Table18[[#Totals],[Actual]],Table14[[#Totals],[Actual]],Table13[[#Totals],[Actual]],Table12[[#Totals],[Actual]],Table11[[#Totals],[Actual]],Table10[[#Totals],[Actual]],Table8[[#Totals],[Actual]],Table7[[#Totals],[Actual]],Table6[[#Totals],[Actual]])",
+    "dependencies": [
+      "ble5",
+      "ble20",
+      "ble21",
+      "ble19",
+      "ble15",
+      "ble16",
+      "ble17",
+      "ble18",
+      "ble14",
+      "ble13",
+      "ble12",
+      "ble11",
+      "ble10",
+      "ble8",
+      "ble7",
+      "ble6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H6",
+      "value": 14301.0
+    }
+  },
+  {
+    "cell": "I6",
+    "formula": "=G6-H6",
+    "readable_formula": "=[Actual]-[Difference]",
+    "dependencies": [
+      "G6",
+      "H6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I6",
+      "value": -281.0
+    }
+  },
+  {
+    "cell": "D7",
+    "formula": "=C7-B7",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C7",
+      "B7"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D7",
+      "value": -200.0
+    }
+  },
+  {
+    "cell": "G7",
+    "formula": "=G5-G6",
+    "readable_formula": "=[Actual]-[Actual]",
+    "dependencies": [
+      "G5",
+      "G6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G7",
+      "value": -10170.0
+    }
+  },
+  {
+    "cell": "H7",
+    "formula": "=H5-H6",
+    "readable_formula": "=[Difference]-[Difference]",
+    "dependencies": [
+      "H5",
+      "H6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H7",
+      "value": -11001.0
+    }
+  },
+  {
+    "cell": "I7",
+    "formula": "=H7-G7",
+    "readable_formula": "=[Difference]-[Actual]",
+    "dependencies": [
+      "H7",
+      "G7"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I7",
+      "value": -831.0
+    }
+  },
+  {
+    "cell": "D8",
+    "formula": "=C8-B8",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C8",
+      "B8"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D8",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D9",
+    "formula": "=C9-B9",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C9",
+      "B9"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D9",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D10",
+    "formula": "=C10-B10",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C10",
+      "B10"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D10",
+      "value": -150.0
+    }
+  },
+  {
+    "cell": "D11",
+    "formula": "=C11-B11",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C11",
+      "B11"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D11",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D12",
+    "formula": "=C12-B12",
+    "readable_formula": "=[Actual]-[Budget]",
+    "dependencies": [
+      "C12",
+      "B12"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D12",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "A13",
+    "formula": "=\"Total \" & Table2[[#Headers],[INCOME]]",
+    "readable_formula": "=\"Total \" & Table2[[#Headers],[INCOME]]",
+    "dependencies": [
+      "ble2"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A13",
+      "value": "Total INCOME"
+    }
+  },
+  {
+    "cell": "B13",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B13",
+      "value": 3850.0
+    }
+  },
+  {
+    "cell": "C13",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C13",
+      "value": 3300.0
+    }
+  },
+  {
+    "cell": "D13",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D13",
+      "value": -550.0
+    }
+  },
+  {
+    "cell": "D16",
+    "formula": "=B16-C16",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B16",
+      "C16"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D16",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I16",
+    "formula": "=G16-H16",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G16",
+      "H16"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I16",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "D17",
+    "formula": "=B17-C17",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B17",
+      "C17"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D17",
+      "value": -17.0
+    }
+  },
+  {
+    "cell": "I17",
+    "formula": "=G17-H17",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G17",
+      "H17"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I17",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D18",
+    "formula": "=B18-C18",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B18",
+      "C18"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D18",
+      "value": -9.0
+    }
+  },
+  {
+    "cell": "I18",
+    "formula": "=G18-H18",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G18",
+      "H18"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I18",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D19",
+    "formula": "=B19-C19",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B19",
+      "C19"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D19",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I19",
+    "formula": "=G19-H19",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G19",
+      "H19"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I19",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "D20",
+    "formula": "=B20-C20",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B20",
+      "C20"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D20",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I20",
+    "formula": "=G20-H20",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G20",
+      "H20"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I20",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "D21",
+    "formula": "=B21-C21",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B21",
+      "C21"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D21",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I21",
+    "formula": "=G21-H21",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G21",
+      "H21"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I21",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D22",
+    "formula": "=B22-C22",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B22",
+      "C22"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D22",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I22",
+    "formula": "=G22-H22",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G22",
+      "H22"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I22",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D23",
+    "formula": "=B23-C23",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B23",
+      "C23"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D23",
+      "value": -150.0
+    }
+  },
+  {
+    "cell": "F23",
+    "formula": "=\"Total \" & Table6[[#Headers],[SAVINGS]]",
+    "readable_formula": "=\"Total \" & Table6[[#Headers],[SAVINGS]]",
+    "dependencies": [
+      "ble6"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F23",
+      "value": "Total SAVINGS"
+    }
+  },
+  {
+    "cell": "G23",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G23",
+      "value": 1700.0
+    }
+  },
+  {
+    "cell": "H23",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H23",
+      "value": 1630.0
+    }
+  },
+  {
+    "cell": "I23",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I23",
+      "value": 70.0
+    }
+  },
+  {
+    "cell": "D24",
+    "formula": "=B24-C24",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B24",
+      "C24"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D24",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D25",
+    "formula": "=B25-C25",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B25",
+      "C25"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D25",
+      "value": 5.0
+    }
+  },
+  {
+    "cell": "D26",
+    "formula": "=B26-C26",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B26",
+      "C26"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D26",
+      "value": 30.0
+    }
+  },
+  {
+    "cell": "I26",
+    "formula": "=G26-H26",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G26",
+      "H26"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I26",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D27",
+    "formula": "=B27-C27",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B27",
+      "C27"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D27",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I27",
+    "formula": "=G27-H27",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G27",
+      "H27"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I27",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D28",
+    "formula": "=B28-C28",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B28",
+      "C28"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D28",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I28",
+    "formula": "=G28-H28",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G28",
+      "H28"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I28",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "A29",
+    "formula": "=\"Total \" & Table5[[#Headers],[HOME EXPENSES]]",
+    "readable_formula": "=\"Total \" & Table5[[#Headers],[HOME EXPENSES]]",
+    "dependencies": [
+      "ble5"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A29",
+      "value": "Total HOME EXPENSES"
+    }
+  },
+  {
+    "cell": "B29",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B29",
+      "value": 1345.0
+    }
+  },
+  {
+    "cell": "C29",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C29",
+      "value": 1486.0
+    }
+  },
+  {
+    "cell": "D29",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D29",
+      "value": -141.0
+    }
+  },
+  {
+    "cell": "I29",
+    "formula": "=G29-H29",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G29",
+      "H29"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I29",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I30",
+    "formula": "=G30-H30",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G30",
+      "H30"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I30",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I31",
+    "formula": "=G31-H31",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G31",
+      "H31"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I31",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D32",
+    "formula": "=B32-C32",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B32",
+      "C32"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D32",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I32",
+    "formula": "=G32-H32",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G32",
+      "H32"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I32",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "D33",
+    "formula": "=B33-C33",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B33",
+      "C33"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D33",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "I33",
+    "formula": "=G33-H33",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G33",
+      "H33"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I33",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D34",
+    "formula": "=B34-C34",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B34",
+      "C34"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D34",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "I34",
+    "formula": "=G34-H34",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G34",
+      "H34"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I34",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D35",
+    "formula": "=B35-C35",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B35",
+      "C35"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D35",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "F35",
+    "formula": "=\"Total \" & Table7[[#Headers],[OBLIGATIONS]]",
+    "readable_formula": "=\"Total \" & Table7[[#Headers],[OBLIGATIONS]]",
+    "dependencies": [
+      "ble7"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F35",
+      "value": "Total OBLIGATIONS"
+    }
+  },
+  {
+    "cell": "G35",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G35",
+      "value": 2200.0
+    }
+  },
+  {
+    "cell": "H35",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H35",
+      "value": 2260.0
+    }
+  },
+  {
+    "cell": "I35",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I35",
+      "value": -60.0
+    }
+  },
+  {
+    "cell": "D36",
+    "formula": "=B36-C36",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B36",
+      "C36"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D36",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D37",
+    "formula": "=B37-C37",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B37",
+      "C37"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D37",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D38",
+    "formula": "=B38-C38",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B38",
+      "C38"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D38",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "I38",
+    "formula": "=G38-H38",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G38",
+      "H38"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I38",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "D39",
+    "formula": "=B39-C39",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B39",
+      "C39"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D39",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I39",
+    "formula": "=G39-H39",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G39",
+      "H39"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I39",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D40",
+    "formula": "=B40-C40",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B40",
+      "C40"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D40",
+      "value": -30.0
+    }
+  },
+  {
+    "cell": "I40",
+    "formula": "=G40-H40",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G40",
+      "H40"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I40",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D41",
+    "formula": "=B41-C41",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B41",
+      "C41"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D41",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I41",
+    "formula": "=G41-H41",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G41",
+      "H41"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I41",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "A42",
+    "formula": "=\"Total \" & Table20[[#Headers],[DAILY LIVING]]",
+    "readable_formula": "=\"Total \" & Table20[[#Headers],[DAILY LIVING]]",
+    "dependencies": [
+      "ble20"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A42",
+      "value": "Total DAILY LIVING"
+    }
+  },
+  {
+    "cell": "B42",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B42",
+      "value": 1510.0
+    }
+  },
+  {
+    "cell": "C42",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C42",
+      "value": 1520.0
+    }
+  },
+  {
+    "cell": "D42",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D42",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "I42",
+    "formula": "=G42-H42",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G42",
+      "H42"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I42",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "F43",
+    "formula": "=\"Total \" & Table8[[#Headers],[BUSINESS EXPENSE]]",
+    "readable_formula": "=\"Total \" & Table8[[#Headers],[BUSINESS EXPENSE]]",
+    "dependencies": [
+      "ble8"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F43",
+      "value": "Total BUSINESS EXPENSE"
+    }
+  },
+  {
+    "cell": "G43",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G43",
+      "value": 500.0
+    }
+  },
+  {
+    "cell": "H43",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H43",
+      "value": 510.0
+    }
+  },
+  {
+    "cell": "I43",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I43",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D45",
+    "formula": "=B45-C45",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B45",
+      "C45"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D45",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D46",
+    "formula": "=B46-C46",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B46",
+      "C46"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D46",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "I46",
+    "formula": "=G46-H46",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G46",
+      "H46"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I46",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D47",
+    "formula": "=B47-C47",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B47",
+      "C47"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D47",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I47",
+    "formula": "=G47-H47",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G47",
+      "H47"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I47",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D48",
+    "formula": "=B48-C48",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B48",
+      "C48"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D48",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I48",
+    "formula": "=G48-H48",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G48",
+      "H48"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I48",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D49",
+    "formula": "=B49-C49",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B49",
+      "C49"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D49",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I49",
+    "formula": "=G49-H49",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G49",
+      "H49"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I49",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D50",
+    "formula": "=B50-C50",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B50",
+      "C50"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D50",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "I50",
+    "formula": "=G50-H50",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G50",
+      "H50"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I50",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D51",
+    "formula": "=B51-C51",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B51",
+      "C51"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D51",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I51",
+    "formula": "=G51-H51",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G51",
+      "H51"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I51",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D52",
+    "formula": "=B52-C52",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B52",
+      "C52"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D52",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I52",
+    "formula": "=G52-H52",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G52",
+      "H52"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I52",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "A53",
+    "formula": "=\"Total \" & Table21[[#Headers],[CHILDREN]]",
+    "readable_formula": "=\"Total \" & Table21[[#Headers],[CHILDREN]]",
+    "dependencies": [
+      "ble21"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A53",
+      "value": "Total CHILDREN"
+    }
+  },
+  {
+    "cell": "B53",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B53",
+      "value": 1460.0
+    }
+  },
+  {
+    "cell": "C53",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C53",
+      "value": 1510.0
+    }
+  },
+  {
+    "cell": "D53",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D53",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "I53",
+    "formula": "=G53-H53",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G53",
+      "H53"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I53",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I54",
+    "formula": "=G54-H54",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G54",
+      "H54"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I54",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "I55",
+    "formula": "=G55-H55",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G55",
+      "H55"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I55",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D56",
+    "formula": "=B56-C56",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B56",
+      "C56"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D56",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I56",
+    "formula": "=G56-H56",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G56",
+      "H56"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I56",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D57",
+    "formula": "=B57-C57",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B57",
+      "C57"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D57",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "F57",
+    "formula": "=\"Total \" & Table10[[#Headers],[ENTERTAINMENT]]",
+    "readable_formula": "=\"Total \" & Table10[[#Headers],[ENTERTAINMENT]]",
+    "dependencies": [
+      "ble10"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F57",
+      "value": "Total ENTERTAINMENT"
+    }
+  },
+  {
+    "cell": "G57",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G57",
+      "value": 920.0
+    }
+  },
+  {
+    "cell": "H57",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H57",
+      "value": 990.0
+    }
+  },
+  {
+    "cell": "I57",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I57",
+      "value": -70.0
+    }
+  },
+  {
+    "cell": "D58",
+    "formula": "=B58-C58",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B58",
+      "C58"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D58",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D59",
+    "formula": "=B59-C59",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B59",
+      "C59"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D59",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D60",
+    "formula": "=B60-C60",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B60",
+      "C60"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D60",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I60",
+    "formula": "=G60-H60",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G60",
+      "H60"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I60",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D61",
+    "formula": "=B61-C61",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B61",
+      "C61"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D61",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "I61",
+    "formula": "=G61-H61",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G61",
+      "H61"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I61",
+      "value": 40.0
+    }
+  },
+  {
+    "cell": "A62",
+    "formula": "=\"Total \" & Table19[[#Headers],[TRANSPORTATION]]",
+    "readable_formula": "=\"Total \" & Table19[[#Headers],[TRANSPORTATION]]",
+    "dependencies": [
+      "ble19"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A62",
+      "value": "Total TRANSPORTATION"
+    }
+  },
+  {
+    "cell": "B62",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B62",
+      "value": 790.0
+    }
+  },
+  {
+    "cell": "C62",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C62",
+      "value": 810.0
+    }
+  },
+  {
+    "cell": "D62",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D62",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "I62",
+    "formula": "=G62-H62",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G62",
+      "H62"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I62",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I63",
+    "formula": "=G63-H63",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G63",
+      "H63"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I63",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "F64",
+    "formula": "=\"Total \" & Table11[[#Headers],[PETS]]",
+    "readable_formula": "=\"Total \" & Table11[[#Headers],[PETS]]",
+    "dependencies": [
+      "ble11"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F64",
+      "value": "Total PETS"
+    }
+  },
+  {
+    "cell": "G64",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G64",
+      "value": 160.0
+    }
+  },
+  {
+    "cell": "H64",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H64",
+      "value": 130.0
+    }
+  },
+  {
+    "cell": "I64",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I64",
+      "value": 30.0
+    }
+  },
+  {
+    "cell": "D65",
+    "formula": "=B65-C65",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B65",
+      "C65"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D65",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D66",
+    "formula": "=B66-C66",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B66",
+      "C66"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D66",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D67",
+    "formula": "=B67-C67",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B67",
+      "C67"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D67",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I67",
+    "formula": "=G67-H67",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G67",
+      "H67"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I67",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D68",
+    "formula": "=B68-C68",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B68",
+      "C68"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D68",
+      "value": 100.0
+    }
+  },
+  {
+    "cell": "I68",
+    "formula": "=G68-H68",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G68",
+      "H68"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I68",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "D69",
+    "formula": "=B69-C69",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B69",
+      "C69"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D69",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I69",
+    "formula": "=G69-H69",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G69",
+      "H69"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I69",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "A70",
+    "formula": "=\"Total \" & Table15[[#Headers],[HEALTH]]",
+    "readable_formula": "=\"Total \" & Table15[[#Headers],[HEALTH]]",
+    "dependencies": [
+      "ble15"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A70",
+      "value": "Total HEALTH"
+    }
+  },
+  {
+    "cell": "B70",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B70",
+      "value": 400.0
+    }
+  },
+  {
+    "cell": "C70",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C70",
+      "value": 330.0
+    }
+  },
+  {
+    "cell": "D70",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D70",
+      "value": 70.0
+    }
+  },
+  {
+    "cell": "I70",
+    "formula": "=G70-H70",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G70",
+      "H70"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I70",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I71",
+    "formula": "=G71-H71",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G71",
+      "H71"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I71",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "F72",
+    "formula": "=\"Total \" & Table12[[#Headers],[SUBSCRIPTIONS]]",
+    "readable_formula": "=\"Total \" & Table12[[#Headers],[SUBSCRIPTIONS]]",
+    "dependencies": [
+      "ble12"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F72",
+      "value": "Total SUBSCRIPTIONS"
+    }
+  },
+  {
+    "cell": "G72",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G72",
+      "value": 155.0
+    }
+  },
+  {
+    "cell": "H72",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H72",
+      "value": 155.0
+    }
+  },
+  {
+    "cell": "I72",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I72",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D73",
+    "formula": "=B73-C73",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B73",
+      "C73"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D73",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D74",
+    "formula": "=B74-C74",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B74",
+      "C74"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D74",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D75",
+    "formula": "=B75-C75",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B75",
+      "C75"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D75",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I75",
+    "formula": "=G75-H75",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G75",
+      "H75"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I75",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D76",
+    "formula": "=B76-C76",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B76",
+      "C76"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D76",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I76",
+    "formula": "=G76-H76",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G76",
+      "H76"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I76",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D77",
+    "formula": "=B77-C77",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B77",
+      "C77"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D77",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I77",
+    "formula": "=G77-H77",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G77",
+      "H77"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I77",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "A78",
+    "formula": "=\"Total \" & Table16[[#Headers],[INSURANCE]]",
+    "readable_formula": "=\"Total \" & Table16[[#Headers],[INSURANCE]]",
+    "dependencies": [
+      "ble16"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A78",
+      "value": "Total INSURANCE"
+    }
+  },
+  {
+    "cell": "B78",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B78",
+      "value": 580.0
+    }
+  },
+  {
+    "cell": "C78",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C78",
+      "value": 570.0
+    }
+  },
+  {
+    "cell": "D78",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D78",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I78",
+    "formula": "=G78-H78",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G78",
+      "H78"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I78",
+      "value": 50.0
+    }
+  },
+  {
+    "cell": "I79",
+    "formula": "=G79-H79",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G79",
+      "H79"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I79",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I80",
+    "formula": "=G80-H80",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G80",
+      "H80"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I80",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "D81",
+    "formula": "=B81-C81",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B81",
+      "C81"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D81",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "F81",
+    "formula": "=\"Total \" & Table13[[#Headers],[VACATION]]",
+    "readable_formula": "=\"Total \" & Table13[[#Headers],[VACATION]]",
+    "dependencies": [
+      "ble13"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F81",
+      "value": "Total VACATION"
+    }
+  },
+  {
+    "cell": "G81",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G81",
+      "value": 1200.0
+    }
+  },
+  {
+    "cell": "H81",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H81",
+      "value": 1250.0
+    }
+  },
+  {
+    "cell": "I81",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I81",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "D82",
+    "formula": "=B82-C82",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B82",
+      "C82"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D82",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "D83",
+    "formula": "=B83-C83",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B83",
+      "C83"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D83",
+      "value": -20.0
+    }
+  },
+  {
+    "cell": "A84",
+    "formula": "=\"Total \" & Table17[[#Headers],[EDUCATION]]",
+    "readable_formula": "=\"Total \" & Table17[[#Headers],[EDUCATION]]",
+    "dependencies": [
+      "ble17"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A84",
+      "value": "Total EDUCATION"
+    }
+  },
+  {
+    "cell": "B84",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B84",
+      "value": 550.0
+    }
+  },
+  {
+    "cell": "C84",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C84",
+      "value": 590.0
+    }
+  },
+  {
+    "cell": "D84",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D84",
+      "value": -40.0
+    }
+  },
+  {
+    "cell": "I84",
+    "formula": "=G84-H84",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G84",
+      "H84"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I84",
+      "value": 5.0
+    }
+  },
+  {
+    "cell": "I85",
+    "formula": "=G85-H85",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G85",
+      "H85"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I85",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "I86",
+    "formula": "=G86-H86",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G86",
+      "H86"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I86",
+      "value": 5.0
+    }
+  },
+  {
+    "cell": "D87",
+    "formula": "=B87-C87",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B87",
+      "C87"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D87",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I87",
+    "formula": "=G87-H87",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G87",
+      "H87"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I87",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D88",
+    "formula": "=B88-C88",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B88",
+      "C88"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D88",
+      "value": -50.0
+    }
+  },
+  {
+    "cell": "I88",
+    "formula": "=G88-H88",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G88",
+      "H88"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I88",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "D89",
+    "formula": "=B89-C89",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B89",
+      "C89"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D89",
+      "value": 0.0
+    }
+  },
+  {
+    "cell": "I89",
+    "formula": "=G89-H89",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G89",
+      "H89"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I89",
+      "value": 10.0
+    }
+  },
+  {
+    "cell": "D90",
+    "formula": "=B90-C90",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "B90",
+      "C90"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D90",
+      "value": 20.0
+    }
+  },
+  {
+    "cell": "I90",
+    "formula": "=G90-H90",
+    "readable_formula": "=[Budget]-[Actual]",
+    "dependencies": [
+      "G90",
+      "H90"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I90",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "A91",
+    "formula": "=\"Total \" & Table18[[#Headers],[CHARITY/GIFTS]]",
+    "readable_formula": "=\"Total \" & Table18[[#Headers],[CHARITY/GIFTS]]",
+    "dependencies": [
+      "ble18"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "A91",
+      "value": "Total CHARITY/GIFTS"
+    }
+  },
+  {
+    "cell": "B91",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "B91",
+      "value": 350.0
+    }
+  },
+  {
+    "cell": "C91",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "C91",
+      "value": 360.0
+    }
+  },
+  {
+    "cell": "D91",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "D91",
+      "value": -10.0
+    }
+  },
+  {
+    "cell": "F91",
+    "formula": "=\"Total \" & Table14[[#Headers],[MISCELLANEOUS]]",
+    "readable_formula": "=\"Total \" & Table14[[#Headers],[MISCELLANEOUS]]",
+    "dependencies": [
+      "ble14"
+    ],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "F91",
+      "value": "Total MISCELLANEOUS"
+    }
+  },
+  {
+    "cell": "G91",
+    "formula": "=SUBTOTAL(9,[Budget])",
+    "readable_formula": "=SUBTOTAL(9,[Budget])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "G91",
+      "value": 200.0
+    }
+  },
+  {
+    "cell": "H91",
+    "formula": "=SUBTOTAL(9,[Actual])",
+    "readable_formula": "=SUBTOTAL(9,[Actual])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "H91",
+      "value": 200.0
+    }
+  },
+  {
+    "cell": "I91",
+    "formula": "=SUBTOTAL(9,[Difference])",
+    "readable_formula": "=SUBTOTAL(9,[Difference])",
+    "dependencies": [],
+    "context": {
+      "sheet": "Budget",
+      "cell_address": "I91",
+      "value": 0.0
+    }
+  }
+]

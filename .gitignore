@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment and secrets
+.env
+.env.*
+*.env
+
+# Jupyter/Colab-related
+.ipynb_checkpoints/
+
+# Output and documentation folders (can remove outputs if you want to track test artifacts)
+outputs/
+documentation/
+
+# Logs and local cache
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+.cache/
+*.egg-info/
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode or other editor configs (optional)
+.vscode/
+.idea/
+
+# Python virtual environments
+venv/
+.env/
+.venv/
+
+# Exclude local Excel or data files
+*.xlsx
+*.xls
+*.csv
+
+# Ignore secrets and API key configs
+secrets/
+*.key
+*.pem

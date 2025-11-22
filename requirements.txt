@@ -1,0 +1,7 @@
+xlwings
+formulas
+openpyxl
+numpy
+psycopg2
+python-dotenv
+google-generativeai
